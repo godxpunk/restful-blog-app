@@ -9,5 +9,5 @@
 - [ejs](https://ejs.co/) - Embedded JavaScript templating
 
 <h2>
-<a href="https://restful-blog-app-anand.herokuapp.com/blogs">View App</a
+<a href="https://restful-blog-app-anand.herokuapp.com/blogs">View Restful Blog App</a
 </h2>
