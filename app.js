@@ -6,6 +6,8 @@ var express    = require("express"),
 	bodyParser = require("body-parser"),
 	mongoose   = require("mongoose");
 
+var port = process.env.PORT || 3000;
+
 //mongoose.connect("mongodb://localhost:27017/restful_blog_app", { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connect("mongodb+srv://godxpunk:NEphilem12@cluster0-zxnej.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true });
 
@@ -120,6 +122,6 @@ app.delete("/blogs/:id",(req,res)=>{
 
 
 
-app.listen(3000,function(){
+app.listen(port,function(){
 	console.log("Restful server is running");
 });
